@@ -1,0 +1,54 @@
+/* App-wide styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8; /* Light grey background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Car List styles */
+.car-list {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Car Container styles */
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Car Card styles */
+.car-card {
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.car-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hover effect for Car Card */
+.car-card:hover {
+  transform: scale(1.08);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .car-container {
+    flex-direction: column;
+  }
+
+  .car-card {
+    width: 100%;
+  }
+}

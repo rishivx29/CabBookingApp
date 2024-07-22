@@ -1,0 +1,54 @@
+.login-container {
+    background-image: url('./pexels-life-of-pix-8247.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+  }
+  
+  .content {
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(144, 238, 144, 0.8); /* Adjust background color and opacity */
+    border-radius: 25px;
+  }
+  
+  .content h2 {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #333;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form label {
+    display: none; /* Hide labels visually but keep them accessible for screen readers */
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .form button {
+    margin-top: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
